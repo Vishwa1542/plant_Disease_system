@@ -1,0 +1,10 @@
+# Backend dependencies
+# Install with: pip install -r requirements.txt
+
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9       # Required for file uploads in FastAPI
+tensorflow==2.15.0            # CNN model — use tensorflow-cpu for lighter deploy
+Pillow==10.2.0                # Image processing
+numpy==1.26.4
+python-dotenv==1.0.1          # Environment variables
